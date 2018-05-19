@@ -1,0 +1,239 @@
+digraph G { 
+
+                graph [fontname = "Anka/Coder Narrow"];
+                 node [fontname = "Anka/Coder Narrow"];
+                 edge [fontname = "Anka/Coder Narrow"];
+                rankdir=LR;    esep=0;    nodesep=0;
+   node64 [width="0.35",shape="none",fontsize="14",fontcolor="darkgreen",height="0.35",label="workspace\n[m]",penwidth="1.225"];
+   
+   subgraph cluster1 {
+   style="rounded";
+   height="0.35";
+   width="0.35";
+   shape="box";
+   fontsize="14";
+   label="";
+   penwidth="1.225";
+      node2 [style="rounded",height="0.35",width="0.35",shape="box",fontsize="14",label="× 4.00000 ",penwidth="1.225"];
+   
+      node3 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpalEfBP.png",height="0.4",width="0.35",shape="none",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node4 [style="rounded",height="0.35",width="0.35",shape="box",fontsize="14",label="× 4.00000 ",penwidth="1.225"];
+   
+      node5 [style="rounded",height="0.35",width="0.35",shape="box",fontsize="14",label="× 4.00000 ",penwidth="1.225"];
+   
+      node6 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpKca8El.png",height="0.4",width="0.35",shape="none",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node7 [style="rounded",height="0.35",width="0.35",shape="box",fontsize="14",label="× 4.00000 ",penwidth="1.225"];
+   
+      node8 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcS7kmx.png",height="0.4",width="0.35",shape="none",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node9 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpGeZS_p.png",height="0.4",width="0.35",shape="none",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      subgraph cluster10 {
+      width="0.35";
+      style="dashed";
+      fontsize="14";
+      height="0.35";
+      label="battery";
+      penwidth="1.225";
+         node11 [width="0.07",shape="point",fontsize="14",height="0.07",label="mass",penwidth="1.225"];
+   
+         node12 [width="0.07",shape="point",fontsize="14",height="0.07",label="cost",penwidth="1.225"];
+   
+         node13 [width="0.07",shape="point",fontsize="14",height="0.07",label="capacity",penwidth="1.225"];
+   
+         node14 [style="rounded",height="0.35",width="0.35",shape="box",fontsize="14",imagescale="true",label=<<TABLE CELLBORDER='0' BORDER='0'><TR><TD>LiPo</TD></TR><TR><TD fixedsize='true' width='60' height='48'><IMG SRC='/tmp/mcdp_tmp_dir/resized/150/tmpqwaEnc.png'/></TD></TR></TABLE>>,penwidth="1.225"];
+   
+         node15 [style="rounded",height="0.35",width="0.35",shape="box",fontsize="14",imagescale="true",label=<<TABLE CELLBORDER='0' BORDER='0'><TR><TD>Basic</TD></TR><TR><TD fixedsize='true' width='60' height='48'><IMG SRC='/tmp/mcdp_tmp_dir/resized/150/tmpAg7Lo1.png'/></TD></TR></TABLE>>,penwidth="1.225"];
+   
+         node16 [style="rounded",height="0.35",width="0.35",shape="box",fontsize="14",imagescale="true",label=<<TABLE CELLBORDER='0' BORDER='0'><TR><TD>NiH2</TD></TR><TR><TD fixedsize='true' width='60' height='48'><IMG SRC='/tmp/mcdp_tmp_dir/resized/150/tmpjNTPMh.png'/></TD></TR></TABLE>>,penwidth="1.225"];
+   
+         node17 [style="rounded",height="0.35",width="0.35",shape="box",fontsize="14",imagescale="true",label=<<TABLE CELLBORDER='0' BORDER='0'><TR><TD>NiMh</TD></TR><TR><TD fixedsize='true' width='60' height='48'><IMG SRC='/tmp/mcdp_tmp_dir/resized/150/tmpuPm3AV.png'/></TD></TR></TABLE>>,penwidth="1.225"];
+   
+         node18 [style="rounded",height="0.35",width="0.35",shape="box",fontsize="14",imagescale="true",label=<<TABLE CELLBORDER='0' BORDER='0'><TR><TD>LCO</TD></TR><TR><TD fixedsize='true' width='60' height='48'><IMG SRC='/tmp/mcdp_tmp_dir/resized/150/tmpi5uAXu.png'/></TD></TR></TABLE>>,penwidth="1.225"];
+   
+      }
+      node19 [style="rounded",height="0.35",width="0.35",shape="box",fontsize="14",imagescale="true",label=<<TABLE CELLBORDER='0' BORDER='0'><TR><TD>actuation</TD></TR><TR><TD fixedsize='true' width='60' height='48'><IMG SRC='/tmp/mcdp_tmp_dir/resized/150/tmp4jW6gh.png'/></TD></TR></TABLE>>,penwidth="1.225"];
+   
+      node20 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpub7XU_.png",height="0.4",width="0.35",shape="none",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node21 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpxOw6DM.png",height="0.4",width="0.35",shape="none",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node22 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpP8Zf9q.png",height="0.4",width="0.35",shape="none",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node23 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpAxTIhI.png",height="0.4",width="0.35",shape="none",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node24 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpgQucZO.png",height="0.4",width="0.35",shape="none",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node25 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmp0LiU8Y.png",height="0.4",width="0.35",shape="none",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node26 [style="rounded",height="0.35",width="0.35",shape="box",fontsize="14",imagescale="true",label=<<TABLE CELLBORDER='0' BORDER='0'><TR><TD>arm</TD></TR><TR><TD fixedsize='true' width='60' height='48'><IMG SRC='/tmp/mcdp_tmp_dir/resized/150/tmpGczhKw.jpg'/></TD></TR></TABLE>>,penwidth="1.225"];
+   
+      node27 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpjatHbt.png",height="0.4",width="0.35",shape="none",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node28 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpwivFuP.png",height="0.4",width="0.35",shape="none",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node29 [style="rounded",height="0.35",width="0.35",shape="box",fontsize="14",imagescale="true",label=<<TABLE CELLBORDER='0' BORDER='0'><TR><TD>chassis</TD></TR><TR><TD fixedsize='true' width='60' height='48'><IMG SRC='/tmp/mcdp_tmp_dir/resized/150/tmp1R4thz.png'/></TD></TR></TABLE>>,penwidth="1.225"];
+   
+      node30 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpGHIPTC.png",height="0.4",width="0.35",shape="none",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node31 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node32 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node33 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node34 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node35 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node36 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node37 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node38 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node39 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node40 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node41 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node42 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node43 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node44 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node45 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node46 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node47 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node48 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node49 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node50 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node51 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node52 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node53 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node54 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node55 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node56 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node57 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node58 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node59 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+      node60 [fixedsize="true",image="/tmp/mcdp_tmp_dir/resized/150/tmpcJ6tNW.png",height="0.3",width="0.35",shape="plaintext",fontsize="14",imagescale="true",label="",penwidth="1.225"];
+   
+   }
+   node66 [width="0.35",shape="none",fontsize="14",fontcolor="darkgreen",height="0.35",label="extra_power\n[W]",penwidth="1.225"];
+   
+   node67 [width="0.35",shape="none",fontsize="14",fontcolor="#861109",height="0.35",label="total_cost\n[USD]",penwidth="1.225"];
+   
+   node68 [width="0.35",shape="none",fontsize="14",fontcolor="#861109",height="0.35",label="total_mass\n[g]",penwidth="1.225"];
+   
+   node65 [width="0.35",shape="none",fontsize="14",fontcolor="darkgreen",height="0.35",label="velocity\n",penwidth="1.225"];
+   
+   node61 [width="0.35",shape="none",fontsize="14",fontcolor="darkgreen",height="0.35",label="endurance\n[s]",penwidth="1.225"];
+   
+   node62 [width="0.35",shape="none",fontsize="14",fontcolor="darkgreen",height="0.35",label="precision\n[1/mm]",penwidth="1.225"];
+   
+   node63 [width="0.35",shape="none",fontsize="14",fontcolor="darkgreen",height="0.35",label="extra_payload\n[kg]",penwidth="1.225"];
+   
+   node60->node21 [arrowhead="dot",weight="0.5",color="darkgreen",label="[USD]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node59->node29 [arrowhead="dot",weight="0.5",color="darkgreen",label="payload\n[g]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node58->node23 [arrowhead="dot",color="darkgreen",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node57->node13 [arrowhead="dot",weight="0.5",color="darkgreen",label="capacity\n[J]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node56->node3 [arrowhead="dot",weight="0.5",color="darkgreen",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node55->node25 [arrowhead="dot",weight="0",color="darkgreen",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node54->node19 [arrowhead="dot",color="darkgreen",label="speed ",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node53->node25 [arrowhead="dot",weight="0.5",color="darkgreen",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node52->node9 [arrowhead="dot",weight="0",color="darkgreen",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node51->node6 [arrowhead="dot",weight="0.5",color="darkgreen",label="[W]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node50->node20 [arrowhead="dot",weight="0.5",color="darkgreen",label="[USD]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node49->node8 [arrowhead="dot",weight="0.5",color="darkgreen",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node48->node24 [arrowhead="dot",color="darkgreen",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node47->node8 [arrowhead="dot",weight="0.5",color="darkgreen",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node46->node2 [arrowhead="dot",color="darkgreen",label="[W]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node45->node20 [arrowhead="dot",weight="0.5",color="darkgreen",label="[USD]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node44->node4 [arrowhead="dot",color="darkgreen",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node43->node27 [arrowhead="dot",weight="0.5",color="darkgreen",label="[W]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node42->node19 [arrowhead="dot",color="darkgreen",label="torque ",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node41->node3 [arrowhead="dot",weight="0.5",color="darkgreen",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node40->node3 [arrowhead="dot",weight="0.5",color="darkgreen",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node39->node30 [arrowhead="dot",weight="0",color="darkgreen",label="[W]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node38->node7 [arrowhead="dot",color="darkgreen",label="[USD]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node37->node9 [arrowhead="dot",weight="0.5",color="darkgreen",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node36->node26 [arrowhead="dot",color="darkgreen",label="payload_mass\n[g]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node35->node22 [arrowhead="dot",color="darkgreen",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node34->node27 [arrowhead="dot",weight="0",color="darkgreen",label="[W]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node33->node21 [arrowhead="dot",weight="0",color="darkgreen",label="[USD]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node32->node5 [arrowhead="dot",color="darkgreen",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node31->node20 [arrowhead="dot",weight="0.5",color="darkgreen",label="[USD]",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",arrowtail="none",dir="both",penwidth="1.75"];
+   node30->node57 [style="dashed",arrowhead="none",weight="0.5",color="#861109",label="[J]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node29->node41 [style="dashed",arrowhead="none",weight="0.5",color="#861109",label="mass [g]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node29->node42 [style="dashed",arrowhead="none",color="#861109",label="torque ",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node29->node45 [style="dashed",arrowhead="none",weight="0.5",color="#861109",label="cost [USD]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node29->node54 [style="dashed",arrowhead="none",color="#861109",label="speed ",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node28->node36 [style="dashed",arrowhead="none",color="#861109",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node27->node39 [style="dashed",arrowhead="none",weight="0",color="#861109",label="total_power\n[W]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node26->node31 [style="dashed",arrowhead="none",weight="0.5",color="#861109",label="budget [USD]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node26->node48 [style="dashed",arrowhead="none",color="#861109",label="mass [g]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node26->node51 [style="dashed",arrowhead="none",weight="0.5",color="#861109",label="electric_power\n[W]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node25->node68 [style="dashed",arrowhead="none",color="#861109",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node24->node37 [style="dashed",arrowhead="none",weight="0.5",color="#861109",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node24->node53 [style="dashed",arrowhead="none",weight="0.5",color="#861109",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node23->node32 [style="dashed",arrowhead="none",color="#861109",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node23->node44 [style="dashed",arrowhead="none",color="#861109",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node22->node40 [style="dashed",arrowhead="none",weight="0.5",color="#861109",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node22->node49 [style="dashed",arrowhead="none",weight="0.5",color="#861109",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node21->node67 [style="dashed",arrowhead="none",color="#861109",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node20->node33 [style="dashed",arrowhead="none",weight="0",color="#861109",label="[USD]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node19->node38 [style="dashed",arrowhead="none",color="#861109",label="cost [USD]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node19->node46 [style="dashed",arrowhead="none",color="#861109",label="power [W]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node19->node58 [style="dashed",arrowhead="none",color="#861109",label="mass [g]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node18->node11 [style="dashed",arrowhead="none",color="#861109",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node18->node12 [style="dashed",arrowhead="none",color="#861109",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node17->node11 [style="dashed",arrowhead="none",color="#861109",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node17->node12 [style="dashed",arrowhead="none",color="#861109",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node16->node11 [style="dashed",arrowhead="none",color="#861109",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node16->node12 [style="dashed",arrowhead="none",color="#861109",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node15->node11 [style="dashed",arrowhead="none",color="#861109",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node15->node12 [style="dashed",arrowhead="none",color="#861109",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node14->node11 [style="dashed",arrowhead="none",color="#861109",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node14->node12 [style="dashed",arrowhead="none",color="#861109",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node13->node14 [style="dashed",arrowhead="dot",color="darkgreen",arrowtail="none",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",dir="both",penwidth="1.75"];
+   node13->node15 [style="dashed",arrowhead="dot",color="darkgreen",arrowtail="none",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",dir="both",penwidth="1.75"];
+   node13->node16 [style="dashed",arrowhead="dot",color="darkgreen",arrowtail="none",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",dir="both",penwidth="1.75"];
+   node13->node17 [style="dashed",arrowhead="dot",color="darkgreen",arrowtail="none",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",dir="both",penwidth="1.75"];
+   node13->node18 [style="dashed",arrowhead="dot",color="darkgreen",arrowtail="none",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",dir="both",penwidth="1.75"];
+   node12->node50 [style="dashed",arrowhead="none",weight="0.5",color="#861109",label="cost [USD]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node11->node35 [style="dashed",arrowhead="none",color="#861109",label="mass [g]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node9->node59 [style="dashed",arrowhead="none",weight="0.5",color="#861109",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node8->node52 [style="dashed",arrowhead="none",weight="0",color="#861109",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node7->node60 [style="dashed",arrowhead="none",weight="0.5",color="#861109",label="[USD]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node6->node34 [style="dashed",arrowhead="none",weight="0",color="#861109",label="[W]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node5->node47 [style="dashed",arrowhead="none",weight="0.5",color="#861109",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node4->node56 [style="dashed",arrowhead="none",weight="0.5",color="#861109",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node3->node55 [style="dashed",arrowhead="none",weight="0",color="#861109",label="[g]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node2->node43 [style="dashed",arrowhead="none",weight="0.5",color="#861109",label="[W]",arrowsize="0.525",fontsize="14",fontcolor="#861109",arrowtail="dot",dir="both",penwidth="1.75"];
+   node61->node30 [arrowhead="dot",color="darkgreen",arrowtail="none",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",dir="both",penwidth="1.75"];
+   node62->node26 [arrowhead="dot",color="darkgreen",arrowtail="none",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",dir="both",penwidth="1.75"];
+   node63->node28 [arrowhead="dot",color="darkgreen",arrowtail="none",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",dir="both",penwidth="1.75"];
+   node64->node26 [arrowhead="dot",color="darkgreen",arrowtail="none",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",dir="both",penwidth="1.75"];
+   node65->node29 [arrowhead="dot",color="darkgreen",arrowtail="none",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",dir="both",penwidth="1.75"];
+   node66->node6 [arrowhead="dot",color="darkgreen",arrowtail="none",arrowsize="0.525",fontsize="14",fontcolor="darkgreen",dir="both",penwidth="1.75"];
+   }
