@@ -1,0 +1,12 @@
+mcdp {
+
+	provides capacity [J]
+	requires mass [g]
+	requires cost [$]
+	
+	specific_energy = 150 Wh/kg
+	specific_cost = 2.50 Wh/$
+	required mass >= provided capacity / specific_energy
+	required cost >= (provided capacity / specific_cost)
+	
+}

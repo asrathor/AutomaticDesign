@@ -1,0 +1,29 @@
+#template mcdp {
+#  provides lift [N]  
+#  requires power [W]
+#  requires cost [USD] 
+#}
+
+
+catalogue {
+		provides torque [dimensionless]
+		provides speed [dimensionless]
+	
+		#provides torque [N*m]
+		#provides speed [rad/s]		
+
+		#requires current [mA]		
+		#requires voltage [V]
+
+		requires power [W]
+		requires mass [g]
+		requires cost [$]
+
+
+		Motor1 | 0.289 | 9.4   | 240 mW | 9.5 g | 15.95 $ 
+		Motor2 | 0.254 | 10.47 | 240 mW | 9.5 g | 15.95 $ 
+		Motor3 | 2.471 | 3.036 | 108 mW | 47 g | 22.95 $ 
+		Motor4 | 0.776 | 11.51 | 108 mW | 46 g | 22.95 $
+		Motor5 | 0.882 | 4.188 | 1500 mW | 235 g | 39.95 $ 
+
+	}

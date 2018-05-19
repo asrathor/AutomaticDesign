@@ -1,0 +1,34 @@
+#template mcdp {
+#    ''' Movement along 1 axis '''
+#    provides workspace [m] 'Dimension of workspace'
+#    provides payload_mass [g] 'Weight of payload to be moved around'
+#    provides precision [1/mm] 'Precision (higher is better)'
+#    #provides velocity [mm/s] 'Velocity '
+#    #provides acceleration [mm/s²] 'Motion acceleration'
+#    #provides force [N] 'Force to be exerted in any direction'
+#    requires electric_power [W]
+#    requires mass [g]
+#    requires budget [$]	 
+#}
+
+catalogue {
+
+     provides workspace [m] 'Dimension of workspace'
+     provides payload_mass [g] 'Weight of payload to be moved around'
+     provides precision [1/mm] 'Precision (higher is better)'
+     #provides velocity [mm/s] 'Velocity '
+     #provides acceleration [mm/s²] 'Motion acceleration'
+     #provides force [N] 'Force to be exerted in any direction'
+     requires electric_power [W]
+     requires mass [g]
+     requires budget [$]
+
+     uArm | 0.320 m | 500 g | 0.2 1/mm | 30 W | 1.2 kg | 500 $
+     uArmPro | 0.320 m | 500 g | 5 1/mm   | 60 W | 2.2 kg | 840 $ 
+     Dobot | 0.320 m | 500 g | 5 1/mm | 60 W | 4 kg | 1149 $
+     PhantomX | 0.310 m | 250 g | 0.2 1/mm | 60 W | 0.55 kg | 379 $
+     PhantomXReactor | 0.380 m | 400 g | 3 1/mm | 60 W | 1.36 kg | 600 $    
+     
+
+
+}

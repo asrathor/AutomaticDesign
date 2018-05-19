@@ -1,0 +1,7 @@
+choose(
+	LiPo: `Battery_LiPo,
+	Basic: `Battery_basic,
+	NiH2: `Battery_NiH2,
+	NiMh: `Battery_NiMh,
+	LCO: `Battery_LCO
+)

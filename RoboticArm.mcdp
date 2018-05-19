@@ -1,0 +1,46 @@
+mcdp {
+
+    provides endurance     [s]
+    provides extra_payload [kg]
+    provides extra_power   [W]
+    provides precision [1/mm]
+    provides workspace [m]
+    provides velocity [dimensionless]
+
+    requires total_cost [$]
+    
+    battery = instance `Batteries
+    actuation = instance `Actuation3
+    chassis = instance `chassis1
+    arm = instance `Joint
+    
+    total_power = (4 * power required by actuation) + electric_power required by arm + extra_power 
+    capacity provided by battery >= endurance * total_power
+
+
+    precision provided by arm ≽ precision
+    workspace provided by arm ≽ workspace
+    
+    #total_payload = payload provided by chassis 
+    #extra_payload <= total_payload + payload provided by actuation
+    
+    payload provided by chassis >= mass required by arm + (4 * mass required by actuation) + mass required by battery
+    extra_payload <= payload_mass provided by arm
+    
+    total_mass_ =  mass required by arm + (4 * mass required by actuation) + mass required by battery  + mass required by chassis #+ extra_payload
+
+    total_cost >= (
+      (4 * cost required by actuation) +
+      cost required by battery +
+      cost required by chassis +
+      budget required by arm)
+
+    requires total_mass = total_mass_ 
+
+    speed required by chassis <= speed provided by actuation
+    torque required by chassis <= torque provided by actuation
+    
+
+    velocity <= velocity provided by chassis
+
+}
