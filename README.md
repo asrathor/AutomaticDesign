@@ -1,2 +1,0 @@
-# AutomaticDesign
-Advanced Robotics Project
